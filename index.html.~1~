@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>homepage</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<table>
+<tr>
+<td><h1>homepage</h1><span class="desc">christ amlai</span></td>
+</tr>
+<tr class="url">
+	<td><i>incase i'm not home -> <a href="doc/other/readme.html">README</a><br>you must drink <a href="https://vimium.github.io/">mouse poison</a> before entering</i></td>
+</tr>
+<tr>
+<td><a href="index.html">home</a> | <a href="doc/file/file.html">files</a> | <a href="doc/lang/lang.html">language</a> | <a href="doc/link/link.html">links</a> | <a href="doc/lart/lart.html">liturgical arts</a> | <a href="doc/proj/proj.html">projects</a> | <a href="doc/tut/tut.html">tutorials</a></td>
+</tr>
+</table>
+<hr/>
+<main>
+	<center>
+<img src="desert.webp" style="max-width: 290px; height: auto;">
+	</center>
+<table id="log"><thead>
+<tr><td><b>article name</b></td><td><b>theme</b></td></tr>
+</thead><tbody>
+<tr><td><a href="doc/art/internet_landmines_treasure_chests.html">the internet, treasure chests or landmines</a></td><td>software</td></tr>
+<tr><td><a href="doc/art/jumping_ships.html">jumping software ships, any land ahoy? 🏝️</td><td>software</td></tr>
+<tr><td><a href="doc/art/war_with_mice.html">ceasing my war with mice 🪤🐀</td><td>software</td></tr>
+	<tr><td><a href="doc/art/people_dont_know_english.html">people don't know english</a></td><td>language</td></tr>
+	<tr><td><a href="doc/art/offloading.html">offloading parenting to strangers</a></td><td>life</td></tr>
+</tbody></table>
+<p><a href="doc/art/art.html">more articles...</a></p>
+</main>
+<footer>
+<p>
+<img src="doc/file/pic/svg/xmr.svg"> Monero <a href="doc/file/pic/xmr_qr.png">QR</a>: <code class=crypto>4Aj7U7GMQVci5k7Gnp3fzb5z2pKQFrXcF3nbCvYoosHxbtAWM3xYnWn1WEMZZYK2Ha5pk5sxid2m8PvZ28SmHpRj5DF2qjj</code><br>
+<img src="doc/file/pic/svg/rss.svg"> <a href="">RSS</a>
+	<img src="doc/file/pic/svg/contact.svg"> <a href="doc/other/contact.html">contact</a>
+</p>
+</footer>
+</body>
+</html>

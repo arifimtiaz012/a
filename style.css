@@ -1,20 +1,34 @@
-:root {
-    color-scheme: light dark;
-}
-
-body {
-    font-family: sans-serif;
-    margin: auto;
-    max-width: 52em;
-    padding: 1em;
-    font-size: medium;
-    line-height: 1.5;
+.lw, dt img, dd img, p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, td img, button img {
+	max-height: .8em;
+	max-width: 1em;
+	vertical-align: middle ;
 }
 
 p {
-    text-align: justify;
+	font-size: 20px;
+	color: #fff;
 }
 
-h3 {
-    text-indent: 1em;
-}
+
+body { font-family: Verdana,sans-serif; text-align: justify; background-color: #111; }
+  pre {
+    font-family: 'Lucida Console', 'Lucida Sans Typewriter', Menlo, "Courier New", monospace;
+    font-size: small;
+    overflow-x: scroll;
+  }
+  h1,h2 { color: #FFFDF9; background-color: #2E4973; padding: 2px; }
+  a { color: #fff; }
+  li { line-height: 1.5; }
+  .cap {
+    font-size: xx-large;
+  }
+  .sidebar {
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .main {
+    margin-left: 20%;
+    padding: 1px 16px;
+  }

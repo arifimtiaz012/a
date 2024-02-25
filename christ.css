@@ -1,0 +1,222 @@
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p, ul, ol {
+   font-size: 20px;
+}
+
+video {
+display: block;
+margin: 0 auto;
+max-width: 100%;
+height: auto;
+}
+
+
+
+.titleimg {
+	align: center ;
+}
+
+.titleimg img {
+	margin: auto ;
+	max-width: 90% ;
+	max-height: 400px ;
+	display: block ;
+}
+body {
+		background-color: #000;
+		color: #bdbdbd;
+		font-family: monospace;
+	        font-size: 23px; 
+	}
+	hr {
+		border-color: #222;
+	}
+	a {
+		color: #56c8ff;
+	}
+	a:target {
+		background-color: #222;
+	}
+	.desc {
+		color: #aaa;
+	}
+	#blob a {
+		color: #555;
+	}
+	#blob a:target {
+		color: #eee;
+	}
+	#blob a:hover {
+		color: #56c8ff;
+	}
+	pre a.h {
+		color: #00cdcd;
+	}
+	.A,
+	span.i,
+	pre a.i {
+		color: #00cd00;
+	}
+	.D,
+	span.d,
+	pre a.d {
+		color: #cd0000;
+	}
+
+	#branches tr:hover td,
+	#tags tr:hover td,
+	#index tr:hover td,
+	#log tr:hover td,
+	#files tr:hover td {
+		background-color: #111;
+	}
+
+#branches td,
+#tags td,
+#index td,
+#log td,
+#files td {
+    border-bottom: 1px solid #666; /* Add a solid underline with color #666 */
+}
+
+.lw, dt img, dd img, p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, td img, button img {
+	max-height: .8em;
+	max-width: 1em;
+	vertical-align: middle ;
+}
+
+
+/* Add spacing between all <td> elements within the table */
+#log td {
+    padding-right: 26px; /* Adjust as needed */
+}
+
+.table-container {
+    width: 50%; /* Adjust as needed */
+    float: left;
+    box-sizing: border-box;
+    padding-right: 10px; /* Adjust as needed */
+}
+
+.column {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#content {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+#nav {
+	float: left;
+	margin: 0 1px 0 0;
+	padding: 1em 1;
+	border-right: 1px dotted #ccc;
+	width: 150px;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav li ul {
+	padding-left: 0.6em !important;
+}
+
+#nav li a {
+	display: block;
+	margin: 0;
+	padding: 0.8ex 2em 0.8ex 1em;
+}
+
+#main {
+	margin: 0 0 0 150px;
+	max-width: 50em;
+	padding: 0.5em;
+}
+
+.left {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.right {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+
+main > article {
+	margin-bottom: 0 ;
+	margin: auto ;
+}
+
+.crypto {
+	font-size: x-small ;
+}
+
+footer {
+	max-width: 600px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align: center ;
+	clear: both ;
+}
+
+pre {
+    background-color: var(--ansi00);
+    color: var(--ansi15);
+    font-family: monospace;
+    border: 1px solid #56c8ff;
+    margin: auto; 
+}
+code {
+    color: #aaa ;
+    overflow-wrap: break-word ;
+}
+pre {
+    display: table;
+    white-space: pre-wrap;
+    white-space: break-spaces;
+    word-break: break-all;
+}
+
+span.line {
+	color:#56c8ff;
+	background: none;
+}
